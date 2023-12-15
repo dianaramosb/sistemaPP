@@ -50,7 +50,7 @@
                                 </a>
                             </div>
                             <p class="mt-2 fs-20 fw-medium">SGPP</p>
-                        </div>dddd
+                        </div>
                     </div>
                 </div>
                 <!-- end row -->
