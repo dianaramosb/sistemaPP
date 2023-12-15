@@ -43,13 +43,13 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="text-center mt-sm-5 mb-4 text-white-50">
+                        <div class="text-center mt-sm-1 mb-4 text-white-50">
                             <div>
                                 <a href="index.html" class="d-inline-block auth-logo">
                                     <img src="assets/img/LOGO UCN.png" alt="" height="150">
                                 </a>
                             </div>
-                            <p class="mt-3 fs-15 fw-medium">Sistema de Pasantías y prácticas profesionales</p>
+                            <p class="mt-2 fs-20 fw-medium">SGPP</p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
 
                 <div class="row justify-content-center">
                     <div class="col-md-8 col-lg-6 col-xl-5">
-                        <div class="card mt-4">
+                        <div class="card mt-2">
 
                             <div class="card-body p-4">
                                 <div class="text-center mt-2">
