@@ -11,15 +11,15 @@
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
     <!-- Layout config Js -->
-    <script src="assets/js/layout.js"></script>
+    <script src="{{ asset('assets/js/layout.js') }}"></script>
     <!-- Bootstrap Css -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
-    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
-    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets/css/app.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- custom Css-->
-    <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('assets/css/custom.min.css') }}" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -60,12 +60,12 @@
 
                             <div class="card-body p-4">
                                 <div class="text-center mt-2">
-                                    <h4 class="text-primary">Iniciar Sesión</h4>                                
+                                    <h4 class="text-primary">Iniciar Sesión</h4>
                                 </div>
                                 <div class="p-2 mt-4">
-                                    
+
                                     <form class="form" action="#" method="POST">
-                                   
+
                                         <div class="mb-4">
                                             <label for="username" class="form-label">Usuario</label>
                                             <input type="text" class="form-control" id="username" name="username" placeholder="Ingrese su usuario">
@@ -89,7 +89,7 @@
 
                                         <div class="mt-4">
                                             <button class="btn btn-success w-100" type="submit">Acceder</button>
-                                        </div>                                      
+                                        </div>
                                     </form>
                                 </div>
                             </div>
@@ -125,19 +125,19 @@
     <!-- end auth-page-wrapper -->
 
     <!-- JAVASCRIPT -->
-    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="assets/libs/node-waves/waves.min.js"></script>
-    <script src="assets/libs/feather-icons/feather.min.js"></script>
-    <script src="assets/js/pages/plugins/lord-icon-2.1.0.js"></script>
-    <script src="assets/js/plugins.js"></script>
+    <script src="{{ asset('assets/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('assets/libs/simplebar/simplebar.min.js') }}"></script>
+    <script src="{{ asset('assets/libs/node-waves/waves.min.js') }}"></script>
+    <script src="{{ asset('assets/libs/feather-icons/feather.min.js') }}"></script>
+    <script src="{{ asset('assets/js/pages/plugins/lord-icon-2.1.0.js') }}"></script>
+    <script src="{{ asset('assets/js/plugins.js') }}"></script>
 
     <!-- particles js -->
-    <script src="assets/libs/particles.js/particles.js"></script>
+    <script src="{{ asset('assets/libs/particles.js/particles.js ')}}"></script>
     <!-- particles app js -->
-    <script src="assets/js/pages/particles.app.js"></script>
+    <script src="{{ asset('assets/js/pages/particles.app.js') }}"></script>
     <!-- password-addon init -->
-    <script src="assets/js/pages/password-addon.init.js"></script>
+    <script src="{{ asset('assets/js/pages/password-addon.init.js') }}"></script>
 </body>
 
 </html>
