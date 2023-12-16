@@ -117,9 +117,9 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
             <a href="{{ action([\App\Http\Controllers\Backend\AdminController::class, 'home']) }}" class="brand-link">
-                <img src="{{ asset('img/HECRH.png') }}" alt="AdminLTE Logo"
+                <img src="{{ asset('assets/img/LOGO UCN.png') }}" alt="AdminLTE Logo"
                     class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light"> UCMEJB</span>
+                <span class="brand-text font-weight-light"> SGPP</span>
             </a>
 
             <!-- Sidebar -->
@@ -129,13 +129,10 @@
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                         data-accordion="false">
-                        <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
+
                         <li class="nav-item menu-open">
                             <a href="{{ action([\App\Http\Controllers\Backend\AdminController::class, 'home']) }}" class="nav-link active">
-                                <p>
-                                    Dashboard
-                                </p>
+
                             </a>
                             <ul class="nav nav-treeview">
                             </ul>
@@ -151,7 +148,7 @@
                                 </p>
                             </a>
 
-                            <ul class="nav nav-treeview">
+                            {{-- <ul class="nav nav-treeview">
                                 <li class="nav-item">
                                     <a href="{{ action([\App\Http\Controllers\Backend\UsuariosController::class, 'index']) }}" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
@@ -164,7 +161,7 @@
                                         <p>Lista usuario</p>
                                     </a>
                                 </li>
-                            </ul>
+                            </ul> --}}
 
                         </li>
 
@@ -172,10 +169,8 @@
                 </nav>
                 <!-- /.sidebar-menu -->
             </div>
-            <!-- /.sidebar -->
         </aside>
 
-        <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
 

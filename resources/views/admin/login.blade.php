@@ -45,7 +45,7 @@
                         <div class="text-center mt-sm-1 mb-4 text-white-50">
                             <div>
                                 <a href="index.html" class="d-inline-block auth-logo">
-                                    <img src="assets/img/LOGO UCN.png" alt="" height="150">
+                                    <img src="{{ asset('assets/img/LOGO UCN.png') }}" alt="" height="150">
                                 </a>
                             </div>
                             <p class="mt-2 fs-20 fw-medium">SGPP</p>
@@ -64,8 +64,8 @@
                                 </div>
                                 <div class="p-2 mt-4">
 
-                                    <form class="form" action="#" method="POST">
-
+                                    <form class="form" action="{{ action([\App\Http\Controllers\Backend\AdminController::class, 'loguear']) }}" method="POST">
+                                        @csrf
                                         <div class="mb-4">
                                             <label for="username" class="form-label">Usuario</label>
                                             <input type="text" class="form-control" id="username" name="username" placeholder="Ingrese su usuario">
@@ -98,7 +98,11 @@
                         <!-- end card -->
 
                         <div class="mt-4 text-center">
-                            <p class="mb-0">Aún no tienes una cuenta ? <a href="auth-signin-basic.html" class="fw-semibold text-primary text-decoration-underline"> Registro </a> </p>
+                            <p class="mb-0">Aún no tienes una cuenta ?
+                                 <a href="{{ action([\App\Http\Controllers\Backend\AdminController::class, 'vista_registrar']) }}" class="fw-semibold text-primary text-decoration-underline">
+                                    Registro
+                                 </a>
+                            </p>
                         </div>
                     </div>
                 </div>

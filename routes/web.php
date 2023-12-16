@@ -25,4 +25,12 @@ Route::prefix('admin')->group(function () {
         Route::post('registro', [AdminController::class, 'registro']);  // Ruta para procesar el inicio de sesión (POST)
         Route::post('login', [AdminController::class, 'loguear']);  // Ruta para procesar el inicio de sesión (POST)
     });
+
+
+    Route::middleware('admin-logueado:1')->group(function () {
+        Route::get('/', [AdminController::class, 'home']);  // Ruta para mostrar la página de inicio del administrador
+        Route::get('logout', [AdminController::class, 'logout']);  // Ruta para cerrar sesión
+         // Ruta para cerrar sesión
+
+    });
 });
