@@ -73,7 +73,7 @@
                                             <input type="email" class="form-control" id="useremail" name="useremail"
                                                 placeholder="Ingrese un correo" required>
                                             <div class="invalid-feedback">
-                                                Por favor ingrese un corre
+                                                Por favor ingrese un correo
                                             </div>
                                         </div>
                                         <div class="mb-3">
