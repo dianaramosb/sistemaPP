@@ -48,7 +48,7 @@
                                     <img src="{{ asset('assets/img/LOGO UCN.png') }}" alt="" height="150">
                                 </a>
                             </div>
-                            <p class="mt-2 fs-20 fw-medium">SGPP</p>
+                            <p class="mt-2 fs-20 fw-medium">SGPPp</p>
                         </div>
                     </div>
                 </div>
